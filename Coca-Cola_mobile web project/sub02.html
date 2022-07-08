@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0 maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>Sub02_Company history</title>
+    <link rel="stylesheet" href="./style/common.css">
+    <link rel="stylesheet" href="./style/sub02.css">
+</head>
+
+<body>
+    <header id="header">
+        <!-- header_in -->
+        <div class="header_in">
+            <div class="search_area">
+                <a href="#" class="search_link">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+            </div>
+            <h1 class="logo">
+                <a href="index.html"><img src="./images/common/logo.svg" alt="cocacola"></a>
+            </h1>
+            <div class="menu_area">
+                <a href="#" class="menu_link">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+            </div>
+        </div>
+        <div id="search_page">
+            <form action="#">
+                <fieldset>
+                    <legend class="blind">search area</legend>
+                    <!-- top area -->
+                        <div class="search_wrap">
+                            <input type="search" placeholder="검색어를 입력해주세요.">
+                            <button type="reset">
+                                <!-- background로 이미지를 넣을 경우에는 strong태그를 이용하여 접근성 높여줌 -->
+                                <i class="fa-solid fa-circle-xmark"></i>
+                            </button>
+                        </div>
+                </fieldset>
+            </form>
+            <!-- 추천검색어 -->
+            <ul class="search_reco">
+                <li><a href="#">&num;코카콜라</a></li>
+                <li><a href="#">&num;워터밤</a></li>
+                <li><a href="#">&num;제로콜라</a></li>
+                <li><a href="#">&num;신제품</a></li>
+                <li><a href="#">&num;닥터페퍼</a></li>
+            </ul>
+        </div>
+        <!-- navigation -->
+        <nav class="gnb">
+            <h2 class="blind">네비게이션</h2>
+            <div class="gnb_header">
+                <a href="#"><img src="./images/common/logo_r.svg" alt="cocacola"></a>
+                <a href="#" class="btn_close">
+                    <span class="blind">메뉴닫기</span>
+                    <span class="close"></span>
+                    <span class="close"></span>
+                </a>
+            </div>
+            <div class="gnb_inner">
+                <a href="#" class="lang">
+                    KR / EN <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <div class="welcome_tit">
+                    <p><strong>코카콜라</strong>에 오신것을 환영합니다.</p>
+                    <div class="login_btn">
+                        <a href="login.html" class="more_btn">로그인</a>
+                        <a href="signup.html" class="more_btn">회원가입</a>
+                    </div>
+                </div>
+                <ul class="gnb_list">
+                    <li>
+                        <div class="tit">
+                            <strong>기업소개</strong>
+                            <a href="#" class="btn_open">
+                                <span class="blind">서브메뉴열기</span>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                        </div>
+                        <ul class="sub">
+                            <li><a href="#">코카콜라</a></li>
+                            <li><a href="#">경영철학</a></li>
+                            <li><a href="#">연혁</a></li>
+                            <li><a href="#">제조과정</a></li>
+                            <li><a href="#">기업이미지</a></li>
+                            <li><a href="#">인재채용</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="tit">
+                            <strong>지속가능한 사업</strong>
+                            <a href="#" class="btn_open">
+                                <span class="blind">서브메뉴열기</span>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                        </div>
+                        <ul class="sub">
+                            <li><a href="#">지속가능한 포장</a></li>
+                            <li><a href="#">원더풀 캠페인</a></li>
+                            <li><a href="#">커뮤니티</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="tit">
+                            <strong>브랜드</strong>
+                            <a href="#" class="btn_open">
+                                <span class="blind">서브메뉴열기</span>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                        </div>
+                        <ul class="sub">
+                            <li><a href="#">스파클링 소프트 드링크</a></li>
+                            <li><a href="#">스포츠 드링크 하이드레이션</a></li>
+                            <li><a href="#">커피 & 차</a></li>
+                            <li><a href="#">과일음료</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="tit">
+                            <strong>뉴스</strong>
+                            <a href="#" class="btn_open">
+                                <span class="blind">서브메뉴열기</span>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                        </div>
+                        <ul class="sub">
+                            <li><a href="#">전체</a></li>
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">최신소식</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="tit">
+                            <strong>스토리</strong>
+                            <a href="#" class="btn_open">
+                                <span class="blind">서브메뉴열기</span>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                        </div>
+                        <ul class="sub">
+                            <li><a href="#">브랜드 스토리</a></li>
+                            <li><a href="#">소셜 네트워킹 서비스</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="gnb_search">
+                    <input type="search" placeholder="검색어를 입력하세요.">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <a href="https://www.coca-colacompany.com" class="global">코카콜라 글로벌 사이트 바로가기</a>
+                <div class="social">
+                    <a href="https://www.facebook.com/Coca-Cola-663709713760411/?brand_redir=40796308305">
+                        <span class="blind">페이스북</span>
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="https://twitter.com/CocaCola_Korea">
+                        <span class="blind">트위터</span>
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/coke.style/">
+                        <span class="blind">인스타그램</span>
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com/user/openhappinesskorea">
+                        <span class="blind">유튜브</span>
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header> 
+    <div id="overlay"></div>
+    <!-- main -->
+    <main id="main">
+        <div id="top_tit">
+            <span>연혁</span>
+        </div>
+        <ul class="tabArea">
+            <li class="circle"><a href="#">1880s-</a></li>
+            <li><a href="#">1900s-</a></li>
+            <li><a href="#">1950s-</a></li>
+            <li><a href="#">2000s-</a></li>
+        </ul>
+        <div class="section_wrap">
+            <!-- 1 -->
+            <div class="section_wrap_first sec">
+                <section class="section01">
+                    <h2 class="year_tit">1880s</h2>
+                    <h3>“Coca-Cola Came Into The World”</h3>
+                    <div class="year_content">
+                        <h4>1886년</h4>
+                        <div><img src="./images/sub02/1886y.png" alt="1886년"></div>
+                        <span>최초의 코카-콜라 탄생</span><br>
+                        <span class="content_text">5월 8일. 대중에게 공개<br>5월 29일. 최초의 광고 실행</span>
+                    </div>
+                    <div class="year_content">
+                        <h4>1887년</h4>
+                        <span>첫 로고 탄생</span>
+                    </div>
+                    <div class="year_content">
+                        <h4>1888년</h4>
+                        <span>지분을 사들이는 아사 캔들러</span>
+                    </div>
+                </section>
+                <section class="section02">
+                    <h2 class="year_tit">1890s</h2>
+                    <h3>“The Developement of Coca-Cola”</h3>
+                    <div class="year_content">
+                        <h4>1891년</h4>
+                        <span>캔들러의 소유권 확보</span>
+                    </div>
+                    <div class="year_content">
+                        <h4>1892년</h4>
+                        <span>코카-콜라 컴퍼니 설립</span>
+                    </div>
+                    <div class="year_content">
+                        <h4>1893년</h4>
+                        <span>상표권 등록</span>
+                    </div>
+                    <div class="year_content">
+                        <h4>1894년</h4>
+                        <div><img src="./images/sub02/1894y.png" alt="1894년"></div>
+                        <span>무료쿠폰 마케팅<br>보틀링(Bottling) 시스템의 시작</span>
+                    </div>
+                    <div class="year_content">
+                        <h4>1895년</h4>
+                        <span>미국 전역에서 소비</span>
+                    </div>
+                    <div class="year_content">
+                        <h4>1896년</h4>
+                        <span>시럽 디스펜서 공개</span>
+                    </div>
+                    <div class="year_content">
+                        <h4>1899년</h4>
+                        <span>보틀링 시스템 시작</span>
+                    </div>
+                </section>
+            </div>
+            <!-- 2 -->
+            <div class="section_wrap_second sec">
+                <section class="section01">
+                    <h2 class="year_tit">1910s</h2>
+                    <h3>“Completion of Coca-Cola Design”</h3>
+                    <div class="year_content">
+                        <h4>1915년</h4>
+                        <div><img src="./images/sub02/s_01.png" alt="1915년"></div>
+                        <span>코카-콜라 병의 탄생</span>
+                    </div>
+                    <div class="year_content">
+                        <h4>1916년</h4>
+                        <div><img src="./images/sub02/s_02.png" alt="1916년"></div>
+                        <span>공식 디자인 지정</span>
+                    </div>
+                    <div class="year_content">
+                        <h4>1919년</h4>
+                        <span>우드러프 시대 개막</span>
+                    </div>
+                </section>
+                <section class="section02">
+                    <h2 class="year_tit">1920s</h2>
+                    <h3>“Coca-Cola Became Globalized”</h3>
+                    <div class="year_content">
+                        <h4>1923년</h4>
+                        <div><img src="./images/sub02/s_03.png" alt="1923년_회장선출"></div>
+                        <span>33살 회장 선출</span>
+                        <div><img src="./images/sub02/s_04.png" alt="1923년_6팩 캐리어"></div>
+                        <span>6팩 캐리어 탄생</span>
+                    </div>
+                    <div class="year_content">
+                        <h4>1926년</h4>
+                        <span>글로벌화 시작</span>
+                    </div>
+                    <div class="year_content">
+                        <h4>1928년</h4>
+                        <span>코카-콜라의 첫 올림픽</span>
+                    </div>
+                </section>
+                <section class="section03">
+                    <h2 class="year_tit">1930s</h2>
+                    <h3>“Activation of Coca-Cola Promotion”</h3>
+                    <div class="year_content">
+                        <h4>1930년</h4>
+                        <div><img src="./images/sub02/s_05.png" alt="1930년"></div>
+                        <span>월드컵 공식 파트너 시작</span>
+                    </div>
+                    <div class="year_content">
+                        <h4>1931년</h4>
+                        <div><img src="./images/sub02/s_06.png" alt="1931년"></div>
+                        <span>광고에서 산타클로스 첫 등장</span>
+                    </div>
+                    <div class="year_content">
+                        <h4>1933년</h4>
+                        <div><img src="./images/sub02/s_07.png" alt="1933년"></div>
+                        <span>새로운 디스펜서 공개<br>
+                            (Dole MASTER 디스펜서)</span>
+                    </div>
+                    <div class="year_content">
+                        <h4>1937년</h4>
+                        <div><img src="./images/sub02/s_08.png" alt="1937년"></div>
+                        <span>최초의 자동판매기<br>
+                            밀스 47(Mills 47)</span>
+                    </div>
+                </section>
+            </div>
+            <!-- 3 -->
+            <div class="section_wrap_third sec">
+                <section class="section01">
+                    <h2 class="year_tit">1950s</h2>
+                    <h3>“Very First and Renewal”</h3>
+                    <div class="year_content">
+                        <h4>1950년</h4>
+                        <div><img src="./images/sub02/t_01.png" alt="1950년"></div>
+                        <span>타임지 최초의 기록</span>
+                    </div>
+                    <div class="year_content">
+                        <h4>1955년</h4>
+                        <span>코카-콜라 병 리뉴얼</span>
+                    </div>
+                    <div class="year_content">
+                        <h4>1956년-1958년</h4>
+                        <div><img src="./images/sub02/t_02.png" alt="1956년"></div>
+                        <div><img src="./images/sub02/t_03.png" alt="1958년"></div>
+                        <span>스텐드형 자판기<br>
+                            벤도 44(Vendo 44) 생산
+                        </span>
+                    </div>
+                </section>
+                <section class="section02">
+                    <h2 class="year_tit">1960s</h2>
+                    <h3>“The Challenge of Coca-Cola”</h3>
+                    <div class="year_content">
+                        <h4>1960년</h4>
+                        <div><img src="./images/sub02/t_04.png" alt="1960년"></div>
+                        <div><img src="./images/sub02/t_05.png" alt="1960년"></div>
+                        <span>새로운 자판기 개발<br>
+                            웨스팅하우스 WB 60-K6  
+                        </span>
+                    </div>
+                </section>
+                <section class="section03">
+                    <h2 class="year_tit">1970s</h2>
+                    <h3>“Global Artists' Love for Coca-Cola”</h3>
+                    <div class="year_content">
+                        <h4>1975년</h4>
+                        <div><img src="./images/sub02/t_06.png" alt="1975년"></div>
+                        <span>앤디 워홀의 저서<br>
+                            『앤디 워홀의 철학』
+                        </span>
+                    </div>
+                </section>
+                <section class="section04">
+                    <h2 class="year_tit">1980s-1990s</h2>
+                    <h3>“World Records of Coca-Cola”</h3>
+                    <div class="year_content">
+                        <h4>1985년</h4>
+                        <div><img src="./images/sub02/t_07.png" alt="1985년"></div>
+                        <span>4월 23일 뉴코-크 출시</span>
+                    </div>
+                    <div class="year_content">
+                        <h4>1986년</h4>
+                        <div><img src="./images/sub02/t_08.png" alt="1986년"></div>
+                        <span>세계에서 가장 큰 코카-콜라 로고</span>
+                    </div>
+                    <div class="year_content">
+                        <h4>1996년</h4>
+                        <div><img src="./images/sub02/t_09.png" alt="1996년"></div>
+                        <span>우주로 떠난 코카-콜라</span>
+                    </div>
+                </section>
+            </div>
+            <div class="section_wrap_fourth sec" style="padding:100px 0;">
+                정보가 없습니다.
+            </div>
+        </div>
+    </main>
+    <!-- footer -->
+    <footer id="footer">
+        <div class="footer_top"><s></s>
+            <div class="footer_logo">
+                <a href="#">
+                    <img src="./images/common/Coca-Cola_logo_b.png" alt="cocacola" class="bottom_logo"
+                        style="width: 90px; height:30px;" />
+                </a>
+            </div>
+            <div class="social">
+                <a href="https://www.facebook.com/Coca-Cola-663709713760411/?brand_redir=40796308305">
+                    <span class="blind">페이스북</span>
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com/CocaCola_Korea">
+                    <span class="blind">트위터</span>
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+
+                <a href="https://www.instagram.com/coke.style/">
+                    <span class="blind">인스타그램</span>
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.youtube.com/user/openhappinesskorea">
+                    <span class="blind">유튜브</span>
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+        <!-- footer_top END -->
+        <div class="footer_bottom">
+            <small class="txt">2022 The Coca-Cola Company. All Rights Reserved</small>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/sub02.js"></script>
+</body>
+
+</html>

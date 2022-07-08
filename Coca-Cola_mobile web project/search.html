@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1, minimum-scale=1">
+  <title>Coca-Cola Search_Page</title>
+  <link rel="stylesheet" href="./style/search.css">
+</head>
+
+<body>
+  <div id="search_page">
+    <form action="#">
+      <fieldset>
+          <legend class="blind">search area</legend>
+          <!-- top area -->
+          <div class="top_area">
+            <div class="search_area">
+              <input type="search" placeholder="검색어를 입력해주세요.">
+              <button type="reset">
+                  <!-- background로 이미지를 넣을 경우에는 strong태그를 이용하여 접근성 높여줌 -->
+                  <i class="fa-solid fa-circle-xmark"></i>
+              </button>
+            </div> 
+            <div class="cancle_area">
+              <a href="#">취소</a>
+            </div> 
+          </div>      
+      </fieldset>
+    </form>
+          <!-- 추천검색어 -->
+    <ul class="search_reco">
+      <li><a href="#">&num;코카콜라</a></li>
+      <li><a href="#">&num;워터밤</a></li>
+      <li><a href="#">&num;제로콜라</a></li>
+      <li><a href="#">&num;신제품</a></li>
+      <li><a href="#">&num;닥터페퍼</a></li>
+    </ul>
+  </div>
+</body>
+</html>

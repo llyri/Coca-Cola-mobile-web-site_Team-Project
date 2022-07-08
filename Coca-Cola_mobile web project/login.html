@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1, minimum-scale=1">
+  <title>Coca-Cola login</title>
+  <link rel="stylesheet" href="./style/common.css">
+  <link rel="stylesheet" href="./style/login.css">
+</head>
+<body>
+    <header id="header">
+        <!-- header_in -->
+        <div class="header_in" style="text-align:center;">
+            <div class="back_area">
+                <a href="#" class="search_link">
+                    <i class="fa-solid fa-chevron-left" style="font-size: 25px; color:#fff;
+                    "></i>
+                </a>
+            </div>
+            <h1 class="logo">
+                <a href="index.html"><img src="./images/common/logo.svg" alt="cocacola"></a>
+            </h1>
+            <div class="menu_area">
+                <a href="#" class="menu_link">
+                    <i class="fa-solid fa-bars" style="font-size: 25px; color:#fff;
+                    "></i>
+                </a>
+            </div>
+        </div>
+        <div id="search_page">
+            <form action="#">
+                <fieldset>
+                    <legend class="blind">search area</legend>
+                    <!-- top area -->
+                    <div class="top_area">
+                        <div class="search_area">
+                            <input type="search" placeholder="검색어를 입력해주세요.">
+                            <button type="reset">
+                                <!-- background로 이미지를 넣을 경우에는 strong태그를 이용하여 접근성 높여줌 -->
+                                <i class="fa-solid fa-circle-xmark"></i>
+                            </button>
+                        </div>
+                        <div class="cancle_area">
+                            <a href="#">취소</a>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+            <!-- 추천검색어 -->
+            <ul class="search_reco">
+                <li><a href="#">&num;코카콜라</a></li>
+                <li><a href="#">&num;워터밤</a></li>
+                <li><a href="#">&num;제로콜라</a></li>
+                <li><a href="#">&num;신제품</a></li>
+                <li><a href="#">&num;닥터페퍼</a></li>
+            </ul>
+        </div>
+        <!-- navigation -->
+        <nav class="gnb">
+            <h2 class="blind">네비게이션</h2>
+            <div class="gnb_header">
+                <a href="#"><img src="./images/common/logo_r.svg" alt="cocacola"></a>
+                <a href="#" class="btn_close">
+                    <span class="blind">메뉴닫기</span>
+                    <span class="close"></span>
+                    <span class="close"></span>
+                </a>
+            </div>
+            <div class="gnb_inner">
+                <a href="#" class="lang">
+                    KR / EN <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <div class="welcome_tit">
+                    <p><strong>코카콜라</strong>에 오신것을 환영합니다.</p>
+                    <div class="login_btn">
+                        <a href="login.html" class="more_btn">로그인</a>
+                        <a href="signup.html" class="more_btn">회원가입</a>
+                    </div>
+                </div>
+                <ul class="gnb_list">
+                    <li>
+                        <div class="tit">
+                            <strong>기업소개</strong>
+                            <a href="#" class="btn_open">
+                                <span class="blind">서브메뉴열기</span>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                        </div>
+                        <ul class="sub">
+                            <li><a href="#">코카콜라</a></li>
+                            <li><a href="#">경영철학</a></li>
+                            <li><a href="#">연혁</a></li>
+                            <li><a href="#">제조과정</a></li>
+                            <li><a href="#">기업이미지</a></li>
+                            <li><a href="#">인재채용</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="tit">
+                            <strong>지속가능한 사업</strong>
+                            <a href="#" class="btn_open">
+                                <span class="blind">서브메뉴열기</span>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                        </div>
+                        <ul class="sub">
+                            <li><a href="#">지속가능한 포장</a></li>
+                            <li><a href="#">원더풀 캠페인</a></li>
+                            <li><a href="#">커뮤니티</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="tit">
+                            <strong>브랜드</strong>
+                            <a href="#" class="btn_open">
+                                <span class="blind">서브메뉴열기</span>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                        </div>
+                        <ul class="sub">
+                            <li><a href="#">스파클링 소프트 드링크</a></li>
+                            <li><a href="#">스포츠 드링크 하이드레이션</a></li>
+                            <li><a href="#">커피 & 차</a></li>
+                            <li><a href="#">과일음료</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="tit">
+                            <strong>뉴스</strong>
+                            <a href="#" class="btn_open">
+                                <span class="blind">서브메뉴열기</span>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                        </div>
+                        <ul class="sub">
+                            <li><a href="#">전체</a></li>
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">최신소식</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="tit">
+                            <strong>스토리</strong>
+                            <a href="#" class="btn_open">
+                                <span class="blind">서브메뉴열기</span>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                        </div>
+                        <ul class="sub">
+                            <li><a href="#">브랜드 스토리</a></li>
+                            <li><a href="#">소셜 네트워킹 서비스</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="gnb_search">
+                    <input type="search" placeholder="검색어를 입력하세요.">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <a href="https://www.coca-colacompany.com" class="global">코카콜라 글로벌 사이트 바로가기</a>
+                <div class="social">
+                    <a href="https://www.facebook.com/Coca-Cola-663709713760411/?brand_redir=40796308305">
+                        <span class="blind">페이스북</span>
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="https://twitter.com/CocaCola_Korea">
+                        <span class="blind">트위터</span>
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/coke.style/">
+                        <span class="blind">인스타그램</span>
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com/user/openhappinesskorea">
+                        <span class="blind">유튜브</span>
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header> 
+    <div id="overlay"></div>
+<!-- main -->
+<main id="main">
+    <form action="#">
+      <fieldset>
+        <legend>로그인</legend>
+        <p><strong>코카콜라 코리아</strong>에 오신것을 환영합니다.</p>
+        <ul>
+          <li>
+            <button type="button">
+              <i class="fa-brands fa-google" style="margin-right:
+              5px;"></i>구글계정으로 로그인하기</button>
+          </li>
+          <li>
+            <span class="line"></span>
+            <span class="middle">or</span>
+            <span class="line"></span>
+          </li>
+          <li>
+            <label for="userId" class="blind" >아이디입력</label>
+            <input id="userId" type="text" placeholder="이메일 또는 아이디를 입력하세요." required maxlength="12">
+          </li>
+          <li>
+            <label for="userPw" class="blind">비밀번호 입력</label>
+            <input id="userPw" type="password" placeholder="비밀번호를 입력하세요." required maxlength="12">
+          </li>
+          <li>            
+            <input id="userCheck" type="checkbox" name="autoLogIn" value="autoLogIn">
+            <label for="userCheck">자동로그인</label>
+          </li>
+          <li>
+            <button type="submit" class="login_btn">로그인</button>
+          </li>
+        </ul>
+      </fieldset>
+    </form>
+    <div class="findId">
+      <span>아이디/비밀번호를 잊어버리셨나요?</span><br>
+      <a href="#">아이디/비밀번호 찾기</a>
+    </div>
+    <div class="signUp">
+      <span>아직 회원이 아니신가요?</span><br>
+      <a href="signup.html">회원가입하고 더 많은 소식 받기</a>
+    </div>
+</main>
+<!-- footer -->
+<footer id="footer">
+        <div class="footer_top"><s></s>
+            <div class="footer_logo">
+                <a href="#">
+                    <img src="./images/common/Coca-Cola_logo_b.png" alt="cocacola" class="bottom_logo" style="width: 90px; height:30px;"/>
+                </a>
+            </div>
+            <div class="social">
+                <a href="https://www.facebook.com/Coca-Cola-663709713760411/?brand_redir=40796308305">
+                    <span class="blind">페이스북</span>
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com/CocaCola_Korea">
+                    <span class="blind">트위터</span>
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+
+                <a href="https://www.instagram.com/coke.style/">
+                    <span class="blind">인스타그램</span>
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.youtube.com/user/openhappinesskorea">
+                    <span class="blind">유튜브</span>
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+        <!-- footer_top END -->
+        <div class="footer_bottom">
+            <small class="txt">2022 The Coca-Cola Company. All Rights Reserved</small>
+        </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="./js/index.js"></script>
+</body>
+</html>

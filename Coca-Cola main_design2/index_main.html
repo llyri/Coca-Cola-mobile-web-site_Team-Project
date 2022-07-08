@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>Coca-cola index</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <header id="header">
+        <!-- header_in -->
+        <div class="header_in">
+            <div class="search_area">
+                <a href="#" class="search_link">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+            </div>
+            <h1 class="logo">
+                <a href="index.html"><img src="./images/common/logo.svg" alt="cocacola"></a>
+            </h1>
+            <div class="menu_area">
+                <a href="#" class="menu_link">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+            </div>
+        </div>
+        <div id="search_page">
+            <form action="#">
+                <fieldset>
+                    <legend class="blind">search area</legend>
+                    <!-- top area -->
+                    <div class="search_wrap">
+                        <input type="search" placeholder="검색어를 입력해주세요.">
+                        <button type="reset">
+                            <!-- background로 이미지를 넣을 경우에는 strong태그를 이용하여 접근성 높여줌 -->
+                            <i class="fa-solid fa-circle-xmark"></i>
+                        </button>
+                    </div>
+                </fieldset>
+            </form>
+            <!-- 추천검색어 -->
+            <ul class="search_reco">
+                <li><a href="#">&num;코카콜라</a></li>
+                <li><a href="#">&num;워터밤</a></li>
+                <li><a href="#">&num;제로콜라</a></li>
+                <li><a href="#">&num;신제품</a></li>
+                <li><a href="#">&num;닥터페퍼</a></li>
+            </ul>
+        </div>
+        <!-- navigation -->
+        <nav class="gnb">
+            <h2 class="blind">네비게이션</h2>
+            <div class="gnb_header">
+                <a href="#"><img src="./images/common/logo_r.svg" alt="cocacola"></a>
+                <a href="#" class="btn_close">
+                    <span class="blind">메뉴닫기</span>
+                    <span class="close"></span>
+                    <span class="close"></span>
+                </a>
+            </div>
+            <div class="gnb_inner">
+                <a href="#" class="lang">
+                    KR / EN <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <div class="welcome_tit">
+                    <p><strong>코카콜라</strong>에 오신것을 환영합니다.</p>
+                    <div class="login_btn">
+                        <a href="login.html" class="more_btn">로그인</a>
+                        <a href="signup.html" class="more_btn">회원가입</a>
+                    </div>
+                </div>
+                <ul class="gnb_list">
+                    <li>
+                        <div class="tit">
+                            <strong>기업소개</strong>
+                            <a href="#" class="btn_open">
+                                <span class="blind">서브메뉴열기</span>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                        </div>
+                        <ul class="sub">
+                            <li><a href="#">코카콜라</a></li>
+                            <li><a href="#">경영철학</a></li>
+                            <li><a href="#">연혁</a></li>
+                            <li><a href="#">제조과정</a></li>
+                            <li><a href="#">기업이미지</a></li>
+                            <li><a href="#">인재채용</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="tit">
+                            <strong>지속가능한 사업</strong>
+                            <a href="#" class="btn_open">
+                                <span class="blind">서브메뉴열기</span>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                        </div>
+                        <ul class="sub">
+                            <li><a href="#">지속가능한 포장</a></li>
+                            <li><a href="#">원더풀 캠페인</a></li>
+                            <li><a href="#">커뮤니티</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="tit">
+                            <strong>브랜드</strong>
+                            <a href="#" class="btn_open">
+                                <span class="blind">서브메뉴열기</span>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                        </div>
+                        <ul class="sub">
+                            <li><a href="#">스파클링 소프트 드링크</a></li>
+                            <li><a href="#">스포츠 드링크 하이드레이션</a></li>
+                            <li><a href="#">커피 & 차</a></li>
+                            <li><a href="#">과일음료</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="tit">
+                            <strong>뉴스</strong>
+                            <a href="#" class="btn_open">
+                                <span class="blind">서브메뉴열기</span>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                        </div>
+                        <ul class="sub">
+                            <li><a href="#">전체</a></li>
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">최신소식</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="tit">
+                            <strong>스토리</strong>
+                            <a href="#" class="btn_open">
+                                <span class="blind">서브메뉴열기</span>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                        </div>
+                        <ul class="sub">
+                            <li><a href="#">브랜드 스토리</a></li>
+                            <li><a href="#">소셜 네트워킹 서비스</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="gnb_search">
+                    <input type="search" placeholder="검색어를 입력하세요.">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <a href="https://www.coca-colacompany.com" class="global">코카콜라 글로벌 사이트 바로가기</a>
+                <div class="social">
+                    <a href="https://www.facebook.com/Coca-Cola-663709713760411/?brand_redir=40796308305">
+                        <span class="blind">페이스북</span>
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="https://twitter.com/CocaCola_Korea">
+                        <span class="blind">트위터</span>
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/coke.style/">
+                        <span class="blind">인스타그램</span>
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com/user/openhappinesskorea">
+                        <span class="blind">유튜브</span>
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="overlay"></div>
+
+    <!-- main -->
+    <main id="main">
+        <div class="visual swiper mySwiper">
+            <ul class="visual_wrap swiper-wrapper">
+                <li class="visual_content swiper-slide">
+                    <div><img src="./images/main/visual_01.png" alt="비주얼 이미지1"></div>
+                    <div class="visual_text">
+                        <h2>긍적적인 변화와<br><strong>더 나은 미래를 위한 노력</strong></h2>
+                        <p>재활용을 지속가능한 자원순환을 위해 노력합니다</p>
+                    </div>
+                </li>
+                <li class="visual_content swiper-slide">
+                    <div><img src="./images/main/visual_02.png" alt="비주얼 이미지2"></div>
+                    <div class="visual_text">
+                        <h2>코카콜라와 함께<br><strong>떠나는 짜릿한 여행</strong></h2>
+                        <p>코카콜라에서만 만날 수 있는 특별한 이야기</p>
+                    </div>
+                </li>
+                <li class="visual_content swiper-slide">
+                    <div><img src="./images/main/visual_03.png" alt="비주얼 이미지3"></div>
+                    <div class="visual_text">
+                        <h2>시원하게 즐겨요!<br><strong>코카콜라</strong></h2>
+                        <p>코카-콜라와 함께 다양한 브랜드를 만나보세요</p>
+                    </div>
+                </li>
+            </ul>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        <!--  -->
+        <section id="section01">
+            <h2>
+                <strong>코카-콜라</strong>를 소개합니다
+            </h2>
+            <div class="swiper mySwiper about">
+                <ul class="company_wrap swiper-wrapper">
+                    <li class="company_content swiper-slide">
+                        <h3>회사개요</h3>
+                        <img src="./images/main/com_01.png" alt="회사개요">
+                        <br>
+                        <p>코카-콜라는 전 세계 200여 개국 이상에 진출한 글로벌 종합음료회사로 총 200여 개의 브랜드를 보유하고 있습니다.
+                        </p>
+                    </li>
+                    <li class="company_content swiper-slide">
+                        <h3>1등비결</h3>
+                        <img src="./images/main/com_02.png" alt="1등비결">
+                        <br>
+                        <p>소비자들이 자신의 취향에 따라 선택할 수 있도록 매년 다양한 신제품을 개발하고 있으며, 저칼로리와 제로칼로리 옵션도 늘려가고 있습니다. </p>
+                    </li>
+                    <li class="company_content swiper-slide">
+                        <h3>지속가능한 경영</h3>
+                        <img src="./images/main/com_03.png" alt="지속가능한 경영">
+                        <br>
+                        <p>전 세계 수많은 사람들의 삶, 지역사회, 나아가 우리가 살고 있는 지구 전체에 긍정적인 변화를 만들어내기 위해 노력하고 있습니다. </p>
+                    </li>
+                </ul>
+                <div class="swiper-pagination"></div>
+            </div>
+            <a href="#" class="btn_more">자세히 보기</a>
+        </section>
+        <!--  -->
+        <section id="section02">
+            <div class="story_wrap">
+                <h2>
+                    <strong>코카-콜라</strong> 스토리
+                </h2>
+                <p>빨간색이 어떻게 코카-콜라를 상징하는 컬러가 되고, 사람들의 머리와 기억 깊숙한 곳에 자리 잡을 수 있었을까요?</p>
+                <div><img src="./images/main/stories.png" alt="코카콜라 스토리"></div>
+            </div>
+            <a href="#" class="btn_more">자세히 보기</a>
+        </section>
+        <!--  -->
+        <section id="section03">
+            <h2>
+                <strong>코카-콜라</strong> 브랜드
+            </h2>
+            <ul class="tabArea">
+                <li><a href="#" class="circle">탄산음료</a></li>
+                <li><a href="#">스포츠&이온음료</a></li>
+                <li><a href="#">커피</a></li>
+                <li><a href="#">쥬스</a></li>
+                <li><a href="#">티</a></li>
+            </ul>
+            <div class="content_wrap">
+                <ul class="menu_wrap m01 swiper yourSwiper">
+                    <div class="swiper-wrapper">
+                        <li class="menu_content cola swiper-slide">
+                            <div><img src="./images/main/m_co_wa.png" alt="코카콜라"></div>
+                            <h3>코카-콜라</h3>
+                            <p>언제 어디서나 이맛, 이느낌! TASTE FEELING</p>
+                            <a href="#" class="btn_more">자세히 보기</a>
+                        </li>
+                        <li class="menu_content sprite swiper-slide">
+                            <div><img src="./images/main/m_sp_wa.png" alt="스프라이트"></div>
+                            <h3>스프라이트</h3>
+                            <p>세계 NO.1 사이다 브랜드 스프라이트</p>
+                            <a href="#" class="btn_more">자세히 보기</a>
+                        </li>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>  
+                </ul>
+
+                <ul class="menu_wrap m02">
+                    <li class="menu_content powerade">
+                        <div><img src="./images/main/m_pa_wa.png" alt="파워에이드"></div>
+                        <h3>파워에이드</h3>
+                        <p>효과적으로 에너지를 공급해주는 저칼로리 스포츠음료</p>
+                        <a href="#" class="btn_more">자세히 보기</a>
+                    </li>
+                </ul>
+                <ul class="menu_wrap m03">
+                    <li class="menu_content gorgia">
+                        <div><img src="./images/main/m_gor_wa.png" alt="조지아"></div>
+                        <h3>조지아</h3>
+                        <p>좋은 커피는 향으로 말한다.</p>
+                        <a href="#" class="btn_more">자세히 보기</a>
+                    </li>
+                </ul>
+                <ul class="menu_wrap m04">
+                    <li class="menu_content mini">
+                        <div><img src="./images/main/m_ju_wa.png" alt="미닛메이드"></div>
+                        <h3>미닛메이드</h3>
+                        <p>자연의 풍부한 영양을 담은 세계1위 쥬스음료 브랜드</p>
+                        <a href="#" class="btn_more">자세히 보기</a>
+                    </li>
+                </ul>
+                <ul class="menu_wrap m05">
+                    <li class="menu_content tea">
+                        <div><img src="./images/main/m_tea_wa.png" alt="티"></div>
+                        <h3>티 브랜드</h3>
+                        <p>건강한 차의 맛을 느낄 수 있는 제대로 만든 차 음료</p>
+                        <a href="#" class="btn_more">자세히 보기</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!--  -->
+        <section id="section04">
+            <h2>
+                <strong>코카-콜라</strong> NOW
+            </h2>
+            <div class="swiper mySwiper now">
+                <ul class="now_wrap swiper-wrapper">
+                    <li class="now_content swiper-slide">
+                        <div class="now_img"></div>
+                        <div class="now_text">
+                            <h3>STAY COOL</h3>
+                            <p>SPRITE X WATERBOMB FESTIVAL</p>
+                        </div>
+                    </li>
+                    <li class="now_content swiper-slide">
+                        <div class="now_img"></div>
+                        <div class="now_text">
+                            <h3>ONETHEPL</h3>
+                            <p>한번(ONE) 더(THE) 사용할 플라스틱(PL)</p>
+                        </div>
+                    </li>
+                    <li class="now_content swiper-slide">
+                        <div class="now_img"></div>
+                        <div class="now_text">
+                            <h3>DREAM COME TRUE</h3>
+                            <p>박세리와 함께 코카콜라 장학금 수여식</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <a href="#" class="btn_more">자세히 보기</a>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer id="footer">
+        <div class="footer_top"><s></s>
+            <div class="footer_logo">
+                <a href="#">
+                    <img src="./images/common/Coca-Cola_logo_b.png" alt="cocacola" class="bottom_logo"
+                        style="width: 90px; height:30px;" />
+                </a>
+            </div>
+            <div class="social">
+                <a href="https://www.facebook.com/Coca-Cola-663709713760411/?brand_redir=40796308305">
+                    <span class="blind">페이스북</span>
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com/CocaCola_Korea">
+                    <span class="blind">트위터</span>
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+
+                <a href="https://www.instagram.com/coke.style/">
+                    <span class="blind">인스타그램</span>
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.youtube.com/user/openhappinesskorea">
+                    <span class="blind">유튜브</span>
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+        <!-- footer_top END -->
+        <div class="footer_bottom">
+            <small class="txt">2022 The Coca-Cola Company. All Rights Reserved</small>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,193 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&display=swap');
+@import url(./all.css);
+
+/* 초기화 */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,
+section,summary,time,mark,audio,video,a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    background: transparent;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input,
+select,
+button {
+    vertical-align: middle;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-radius: 0;
+    appearance: none;
+    padding: 0;
+    margin: 0;
+}
+
+img,
+video {
+    max-width: 100%;
+}
+
+a,
+span,
+strong,
+i {
+    display: inline-block;
+}
+
+.blind {
+    position: absolute;
+    width: 0;
+    height: 0;
+    margin: -1px;
+    overflow: hidden;
+    display: block;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: normal;
+  font-size: inherit;
+  line-height: 1.2;
+}
+
+/* 공통 */
+body {
+  color: #0d0d0d;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Noto Sans KR', 'Malgun Gothic', '맑은 고딕', sans-serif;
+}
+
+/* main */
+#main{
+  text-align: center;
+  padding: 0 20px 50px;
+}
+
+#main fieldset legend{
+  font-size: 32px;
+  font-weight: 600;
+  padding: 50px 0;
+  position: relative;
+  width: 100%;
+}
+
+/* #main fieldset legend::before{
+  content: url(../images/login_signup/arrow_btn.svg);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+} */
+
+#main fieldset p{
+  margin-bottom: 20px;  
+  font-size: 18px;
+}
+
+#main fieldset p>strong{
+  color: #E50C15;
+  font-weight: 400;
+}
+
+#main button, #main input{
+  width: 300px;
+  height: 55px;
+  background-color: #f4f4f4;
+  border-radius: 7px;
+  margin: 5px 0;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+/* li:nth-child(1) */
+#main li:first-child button{
+  color: #777;
+  font-size: 15px;
+}
+
+/* #main li:nth-child(2) */
+#main li:nth-child(2){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+#main li:nth-child(2) .line{
+  width: 132px;
+  height: 1px;
+  background-color: #bbb;
+}
+
+#main li:nth-child(2) span{
+  line-height: 1;
+  margin: 0 5px;
+  color: #aaa;
+  font-size: 14px;
+}
+
+/* #main li:nth-child(3,4) */
+#main li:nth-child(3)>input::placeholder,
+#main li:nth-child(4)>input::placeholder{
+  color: #bbb;
+  font-size: 14px;
+}
+
+/* #main li:nth-child(5) */
+#main li:nth-child(5){
+  text-align: left;
+  margin: 10px 0 10px 20px; 
+}
+
+#main li:nth-child(5) input{
+  width: 14px;
+  height: 14px;
+  padding: 0;
+  border-radius: 3px;
+  background: transparent;
+  border: 1px solid #777;
+}
+
+#main li:nth-child(5)>label{
+  color: #777;
+  font-size: 14px;
+}
+
+/* #main li:nth-child(6) */
+#main button.login_btn{
+  background-color: #E50C15;
+  color: white;
+  font-size: 16px;
+}
+
+/*  */
+#main>div{
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+#main>div>span{
+  color: #777;
+  margin-bottom: 5px;
+}
+#main>div>a{
+  color: #E50C15;
+}
